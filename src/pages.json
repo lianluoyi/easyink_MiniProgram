@@ -1,0 +1,38 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "EasyInk"
+      }
+    },
+    {
+      "path": "pages/code/groupCode",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#6BB4AB",
+        "enablePullDownRefresh": false,
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/code/employeesCode",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#6BB4AB",
+        "enablePullDownRefresh": false,
+        "disableScroll": true
+      }
+    }
+  ],
+  "globalStyle": {
+    "app-plus": {
+      "titleNView": false,
+      "popGesture": "close"
+    },
+    "navigationBarTitleText": " "
+  }
+}
